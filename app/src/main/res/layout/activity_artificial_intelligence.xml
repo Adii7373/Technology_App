@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8CD1A"
+    tools:context=".Artificial_intelligence">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="332dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="620dp"
+        android:background="#000"
+        android:textStyle="bold"
+        android:textColor=" #fff"
+        android:fontFamily="@font/almendra_sc"
+        android:text="Artificial Intelligence Knowledge"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="405dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/artificialintell" />
+
+    <ScrollView
+        android:layout_width="406dp"
+        android:layout_height="441dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="297dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+                android:text="Title: Artificial In Information Professional
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Course Description:
+This course introduces students to the role of Artificial Intelligence (AI) in information management and retrieval. Students will explore various AI techniques, algorithms, and applications used in information processing, analysis, and decision-making. Emphasis will be placed on understanding the ethical, legal, and societal implications of AI in information professions.
+
+
+
+
+
+
+
+Learning Objectives:
+1. Understand the fundamentals of Artificial Intelligence and its applications in information management.
+2. Explore AI techniques such as machine learning, natural language processing, and neural networks.
+3. Analyze the impact of AI on information retrieval, organization, and dissemination.
+4. Examine ethical considerations and challenges associated with AI adoption in information professions.
+5. Develop practical skills in implementing AI-based solutions for information processing and analysis.
+6. Critically evaluate AI algorithms and technologies for their effectiveness and reliability in information contexts.
+7. Discuss the role of AI in enhancing user experience and accessibility in information services.
+8. Investigate emerging trends and future directions of AI in information professions.
+9. Evaluate the legal and regulatory frameworks governing AI use in information management.
+10. Collaborate on projects to design and implement AI-driven solutions for real-world information challenges.
+
+Assessment Methods:
+1. Written assignments evaluating AI applications in information professions (20%)
+2. Group projects developing AI-based solutions for information management tasks (30%)
+3. Class presentations on ethical considerations and societal impacts of AI in information contexts (15%)
+4. Midterm exam assessing understanding of AI techniques and algorithms (15%)
+5. Final exam testing comprehensive knowledge of AI in information professions (20%)
+
+Textbook:
+- Artificial Intelligence for Information Professionals by [Author]
+- Supplementary readings and research articles provided throughout the course.
+
+Prerequisites:
+Basic understanding of information management principles and familiarity with computer science concepts.
+
+Note: This syllabus is subject to change at the discretion of the instructor." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

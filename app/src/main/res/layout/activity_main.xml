@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stylebg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="394dp"
+        android:layout_height="141dp"
+        android:background="@drawable/searchlol"
+        android:fontFamily="sans-serif"
+        android:text="Welcome to Technology App"
+        android:textColor="#d9138a"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="166dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="472dp"
+        android:text="Click"
+        android:textColor="#191617"
+        android:textColorHint="#B81ED3"
+        android:textColorLink="#779111"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#29DF42" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

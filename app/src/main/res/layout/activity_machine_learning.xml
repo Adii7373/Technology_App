@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/searchlol"
+    tools:context=".Machine_learning">
+
+
+
+   <TextView
+    android:layout_width="367dp"
+    android:layout_height="90dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginBottom="624dp"
+    android:background="#000"
+    android:fontFamily="@font/adamina"
+    android:text="Machine learning"
+    android:textColor="#ffff"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+
+   <ImageView
+       android:id="@+id/imageView2"
+       android:layout_width="316dp"
+       android:layout_height="201dp"
+       android:layout_marginStart="44dp"
+       android:layout_marginBottom="408dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:srcCompat="@drawable/machine" />
+
+
+   <ScrollView
+       android:layout_width="409dp"
+       android:layout_height="406dp"
+       tools:layout_editor_absoluteX="1dp"
+       tools:layout_editor_absoluteY="324dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical" />
+
+   </ScrollView>
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="405dp"
+       android:layout_height="405dp"
+       android:text="Machine learning, a subset of artificial intelligence, is a field dedicated to developing algorithms that enable computers to learn from data. It encompasses a variety of techniques that empower machines to recognize patterns, make predictions, and improve performance over time without explicit programming. Machine learning algorithms are designed to analyze large datasets, extract meaningful insights, and automate decision-making processes. These algorithms are classified into supervised, unsupervised, and reinforcement learning based on the nature of the learning task. Supervised learning involves training models on labeled data, while unsupervised learning deals with unlabeled data to discover hidden patterns. Reinforcement learning focuses on learning through interaction with an environment to maximize rewards.
+
+The applications of machine learning are widespread, ranging from recommendation systems and natural language processing to image recognition and autonomous vehicles. In healthcare, machine learning aids in disease diagnosis, drug discovery, and personalized treatment plans. In finance, it powers fraud detection, algorithmic trading, and credit scoring systems. Moreover, machine learning plays a crucial role in improving efficiency and optimizing operations across various industries, including manufacturing, retail, and transportation.
+
+One of the key advantages of machine learning is its ability to handle complex and high-dimensional data, allowing organizations to derive valuable insights and gain a competitive edge. However, challenges such as data privacy, bias in algorithms, and interpretability of models need to be addressed to ensure responsible and ethical deployment of machine learning systems. As the field continues to evolve, advancements in deep learning, reinforcement learning, and federated learning are pushing the boundaries of what is possible, driving innovation and shaping the future of technology."
+       android:textStyle="bold"
+       android:textSize="18dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

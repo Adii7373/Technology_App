@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/searchlol"
+    tools:context=".Data_science">
+
+    <TextView
+        android:layout_width="367dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="624dp"
+        android:background="#000"
+        android:fontFamily="@font/adamina"
+        android:text="Data Science"
+        android:textColor="#ffff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="316dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="408dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/datascience" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="406dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="405dp"
+        android:layout_height="405dp"
+        android:text="Data science is a multidisciplinary field that combines statistical analysis, machine learning, data mining, and domain expertise to extract insights and knowledge from data. It involves collecting, processing, analyzing, and interpreting large volumes of structured and unstructured data to inform decision-making and solve complex problems.
+
+At its core, data science relies on statistical methods and algorithms to uncover patterns, trends, and correlations within datasets. These insights help organizations gain a deeper understanding of their operations, customers, and market dynamics. Data scientists employ a variety of techniques, such as regression analysis, clustering, classification, and natural language processing, to extract actionable insights from data.
+
+Data science encompasses various stages of the data lifecycle, including data collection, cleaning, transformation, modeling, evaluation, and deployment. Data collection involves gathering data from multiple sources, including databases, sensors, social media, and web scraping. Data cleaning and preprocessing are essential steps to ensure data quality and consistency before analysis. Data modeling involves building predictive or descriptive models using machine learning algorithms to solve specific problems or make forecasts. Evaluation assesses the performance of these models using metrics such as accuracy, precision, recall, and F1-score. Deployment involves integrating data science solutions into operational systems to drive decision-making and create value.
+
+The applications of data science are diverse and span across industries, including finance, healthcare, marketing, e-commerce, telecommunications, and cybersecurity. In finance, data science is used for risk assessment, fraud detection, algorithmic trading, and customer segmentation. In healthcare, it aids in disease diagnosis, drug discovery, personalized medicine, and patient monitoring. In marketing, data science drives targeted advertising, customer profiling, recommendation systems, and sentiment analysis. In e-commerce, it optimizes pricing strategies, inventory management, and supply chain logistics. In telecommunications, data science improves network optimization, customer churn prediction, and predictive maintenance. In cybersecurity, it detects anomalies, identifies threats, and enhances network security.
+
+The growing availability of big data, advancements in computing technologies, and the emergence of cloud computing and big data platforms have fueled the rapid expansion of data science. As organizations increasingly rely on data-driven insights to gain a competitive edge and innovate, the demand for skilled data scientists continues to grow. Data science is not only transforming industries but also reshaping how businesses operate and how society addresses complex challenges."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

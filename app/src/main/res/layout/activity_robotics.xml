@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/searchlol"
+    tools:context=".Robotics">
+
+
+    <TextView
+        android:layout_width="367dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="624dp"
+        android:background="#000"
+        android:fontFamily="@font/adamina"
+        android:text="Robotics Knowledge"
+        android:textColor="#ffff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="316dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="408dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/robotics" />
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="406dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="405dp"
+        android:layout_height="405dp"
+        android:text="Robotics is a multidisciplinary field that involves the design, construction, operation, and use of robots to perform various tasks. These tasks can range from simple repetitive actions to complex operations requiring advanced cognitive capabilities. Robots are electromechanical machines programmed to carry out specific functions autonomously or under human control.
+
+The field of robotics draws upon principles from mechanical engineering, electrical engineering, computer science, and artificial intelligence. Mechanical engineering is essential for designing the physical structure and components of robots, including their actuators, sensors, and manipulators. Electrical engineering focuses on powering and controlling these components, ensuring efficient operation and precise movement. Computer science plays a crucial role in programming robots, developing algorithms for perception, decision-making, and control. Artificial intelligence enables robots to learn from experience, adapt to changing environments, and interact intelligently with humans and other machines.
+
+Robots find applications in various industries and domains, including manufacturing, healthcare, agriculture, logistics, defense, and space exploration. In manufacturing, industrial robots automate production processes, increasing efficiency, precision, and productivity. In healthcare, surgical robots assist surgeons in performing minimally invasive procedures with enhanced accuracy and dexterity. Agricultural robots help optimize crop cultivation, harvesting, and monitoring, contributing to sustainable farming practices. In logistics, warehouse robots streamline inventory management, order fulfillment, and transportation tasks. In defense, unmanned aerial vehicles (UAVs) and ground-based robots are used for reconnaissance, surveillance, and bomb disposal operations. In space exploration, robots are deployed for planetary exploration, satellite maintenance, and extraterrestrial resource extraction.
+
+Advancements in robotics technologies, such as soft robotics, bio-inspired designs, swarm robotics, and human-robot interaction, are expanding the capabilities and potential applications of robots. Additionally, research in areas like autonomous navigation, collaborative robotics, and ethical robotics is addressing challenges related to safety, reliability, and societal impact. As robotics continues to evolve, it holds the promise of revolutionizing industries, improving quality of life, and shaping the future of human-robot collaboration."
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
